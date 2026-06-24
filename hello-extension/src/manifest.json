@@ -1,0 +1,26 @@
+{
+"permissions": ["tabs","tabGroups"],
+
+"manifest_version" : 3,
+"name": "Hello world extension",
+"version": "1.0.0",
+"description": "My Extension",
+
+"action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+    "16":"extensionIMG.png",
+    "32":"extensionIMG.png",
+    "48":"extensionIMG.png",
+    "128":"extensionIMG.png"
+    }
+},
+
+"icons": {
+    "16":"extensionIMG.png",
+    "32":"extensionIMG.png",
+    "48":"extensionIMG.png",
+    "128":"extensionIMG.png"
+    }
+}
+

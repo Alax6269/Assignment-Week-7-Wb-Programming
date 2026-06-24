@@ -1,0 +1,6 @@
+{"name":"hello-extension",
+"version":"1.0.0",
+"description":"My Extension",
+"scripts":{"build":"mkdir -p dist && cp -r src/* dist/",
+"start":"npn run build"},
+"devDependencies":{"shx":"^0.4.0"}}

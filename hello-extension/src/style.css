@@ -1,0 +1,268 @@
+body{
+
+    background-color: rgb(0, 0, 0);/*For the background color of the main page*/
+
+}
+
+
+.LogoTXT{
+
+    color:rgb(255, 255, 255);
+    font-family: Arial Black; /*Not a black color but a bug in VS Code i think, supposed to be Arial Black Font but it works so idk..... maybe just viasual bug?*/
+    font-weight: bold;
+    font-size: 20px;
+    background-color: rgb(255, 0, 0);
+    border-radius:10px;
+    border: 2.5px solid rgb(255, 255, 0); 
+    padding: 5px 10px;
+    margin-bottom:15px;
+    display: inline-block;
+    display: flex;
+}
+
+.Tab_Amount{
+    
+    margin-top: 15px;
+    color: rgb(0, 255, 85);
+    text-align: center;
+    font-weight: bold;
+    font-family: Arial Black;
+    font-size: 15px;
+    display: flex;
+}
+
+.Search_Bar{
+
+    display:flex;
+    margin-top:15px;
+    margin-bottom:15px;
+    color: rgb(0, 0, 0);
+    border-color: yellow;
+    border:solid;
+    display: flex;
+
+
+}
+
+
+.Search_Input{
+
+    flex:1;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    border: 2.5 solid rgb(246, 255, 0);
+    background: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.Clear_Search_BTN{
+
+    color:rgb(0, 0, 0);
+    border-radius: 5px;
+    background: rgb(255, 0, 0);
+    border: 2.5px solid;
+    font-weight: bold;
+    height: 100%; /*Will be same as input text size*/
+    align-self: stretch;  /*strech fitt the row*/
+}
+
+.Clear_Search_BTN:hover{
+
+    border-color:yellow;
+}
+
+.Toolbar{
+
+    color:rgb(255, 0, 0);
+    margin-bottom: 25px;
+    display: flex;
+    align-items: flex-start; 
+    flex-direction: column;
+}
+
+
+.Toolbar_Effect {
+
+    display: flex;
+    gap:6px;
+ }
+
+
+.Select_All_Bar{
+
+    color:yellow;
+    margin-bottom: 25px;
+    display: flex;
+}
+
+
+.Group_Button{
+
+    color:rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 15px;
+    font-family: Arial Black;
+    border-radius: 10px;
+    background-color: rgb(255, 0, 0);
+    margin-top: 5px; 
+    margin-right:10px;
+    border: 2.5px solid red;
+}
+
+.Group_Button:hover{
+
+    border-color: rgb(255, 255, 255);
+}
+
+.Close_Button{
+
+    color:rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 15px;
+    font-family: Arial Black;
+    border-radius: 10px;
+    background-color: rgb(255, 0, 0);
+    margin-top: 5px;
+    border: 2.5px solid red;
+}
+
+.Close_Button:hover{
+
+    border-color: rgb(255, 255, 255);
+
+}
+
+.Group_Tab_Name_Bar{
+
+    color:yellow;
+    
+}
+
+
+.Group_Name_Input{
+
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    border: 2.5 solid rgb(246, 255, 0);
+    background: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 15px;
+    margin-bottom: 5px;
+    flex:1;
+}
+
+
+.Confirm_Button{
+
+    color:rgb(255, 0, 0);
+    font-weight: bold;
+    font-size: 15px;
+    font-family: Arial Black;
+    background:rgb(255, 255, 255);
+    border: 2.5px solid;
+    border-radius: 5px;
+
+}
+
+.Confirm_Button:hover{
+
+     border-color: rgb(251, 255, 0);
+     color: black;
+}
+
+
+#Tab_List > div {
+    color:rgb(0, 0, 0);
+    background:rgb(255, 255, 255);
+    border-radius: 5px;
+    font-family: arial black;
+    margin-left: 5px;
+    margin-top:10px;
+}
+
+#Tab_List > div:hover{
+
+    background:rgb(147, 141, 141);
+}
+
+
+.tab-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 6px 8px;
+    color: rgb(0, 0, 0);
+    background: rgb(255, 255, 255);
+    border-radius: 5px;
+    font-family: Arial Black;
+    margin-left: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.tab-item:hover {
+    background: rgb(147, 141, 141);
+}
+
+.tab-item.selected {
+    background: rgb(200, 230, 255);
+}
+
+.tab-favicon {
+    width: 16px;
+    height: 16px;
+    flex-shrink: 0;
+}
+
+.tab-info {
+    flex: 1;
+    min-width: 0;
+}
+
+.tab-title {
+    font-weight: bold;
+    font-size: 13px;
+    color: rgb(0, 0, 0);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.tab-url {
+    font-size: 11px;
+    font-weight: normal;
+    color: rgb(80, 80, 80);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.tab-close-btn {
+    flex-shrink: 0;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 12px;
+    color: rgb(150, 0, 0);
+    padding: 2px 5px;
+    border-radius: 4px;
+}
+
+.tab-close-btn:hover {
+    background: rgb(255, 0, 0);
+    color: white;
+}
+
+.loading-state {
+    color: rgb(0, 255, 85);
+    text-align: center;
+    padding: 20px;
+
+
+
+.loading{
+
+    color:blue;
+}
+}

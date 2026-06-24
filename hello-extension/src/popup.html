@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"> <!--Linking the style,scc to popup.html-->
+    <title>Assignmnet Week 7</title>
+</head>
+<body>
+    
+    <div class = "Header"> <!--For Elements In a Group called Header-->
+        <div class="Logo"> <!--Inside Header and have a Logo sub class group-->
+            <span class = "LogoIMG"></span> <!--For the Icon of the Extension-->
+            <span class = "LogoTXT">Tab Manager</span> <!--For the text on top of Extension Logo-->
+        </div>
+        <span id="Tab_Amount" class= "Tab_Amount"></span> <!--For showing the Tab Ammount Selected-->
+    </div>
+    
+    <div class = "Search_Bar"> <!--Group for the Search Bar Elemnts-->
+       <input type = "text" id = "Search_Input" class="Search_Input" placeholder= "Search using URL or Title...."> <!--For the input box aka the search bar-->
+       <button id = "Clear_Search" class="Clear_Search_BTN">X</button> <!--Button To Erase all text in Search Bar-->
+    </div>
+
+    <div class="Toolbar"> <!--Grouping the Elements used for toolbar functions-->
+        <label class = "Select_All_Bar"> <!--Style for Select all Tabs / a check box-->
+            <input type= "checkbox" id="Select_All"/><!--Check box To select all Tabs-->
+            <span>Select All</span> <!--Text on right side of the check box-->
+        </label> 
+
+        <div class="Toolbar_Effect"> <!--Group for the toolbar effect functions-->
+            <button id = "Group_Button" class="Group_Button">Group</button> <!--To group selected tabs-->
+            <button id="Close_Button" class= "Close_Button">X Close</button> <!--To close Selected Tabs-->
+        </div>
+    </div>
+
+    <div id="Group_Tab_Name_Bar" class="Group_Tab_Name_Bar"> <!--This Section is to set style a new Group Name for Tabs-->
+        <input type="text" id="Group_Name_Input" class ="Group_Name_Input" placeholder="Enter Group Name...." /> <!--To input Group Name-->
+        <button id="Confirm_Group_Button" class="Confirm_Button">Create a Group</button> <!--To create the Group-->
+    </div>
+
+    <div id ="Tab_List" class="Tab_List">
+        <div class="loading">Loading Tabs.....</div> <!--To style the Tab loading time-->
+    </div>
+
+    <script src="popup.js"></script> <!--Importing the popup.js so the web browser know how to execute implemented functions-->
+</body>
+</html>
