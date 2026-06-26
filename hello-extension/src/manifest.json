@@ -7,13 +7,5 @@
 "description": "My Extension",
 
 "action": {
-    "default_popup": "popup.html",
-    "default_icon": {
-    }
-},
-
-"icons": {
-   
-    }
+    "default_popup": "popup.html"}
 }
-
