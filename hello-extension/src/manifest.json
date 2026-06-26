@@ -9,18 +9,11 @@
 "action": {
     "default_popup": "popup.html",
     "default_icon": {
-    "16":"extensionIMG.png",
-    "32":"extensionIMG.png",
-    "48":"extensionIMG.png",
-    "128":"extensionIMG.png"
     }
 },
 
 "icons": {
-    "16":"extensionIMG.png",
-    "32":"extensionIMG.png",
-    "48":"extensionIMG.png",
-    "128":"extensionIMG.png"
+   
     }
 }
 
